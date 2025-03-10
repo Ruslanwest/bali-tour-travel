@@ -1,5 +1,7 @@
 import React from "react";
 import Testimony from "../components/Testimony";
+import Contact from "../components/Contact";
+
 
 const Home = () => {
   return (
@@ -11,6 +13,7 @@ const Home = () => {
       <Testimony />
       
       {/* Konten lainnya */}
+      <Contact /> {/* Contact Section Ditambahkan di Sini */}
     </div>
   );
 };
