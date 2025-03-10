@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Admin from "./pages/Admin";
 import Navbar from "./components/Navbar";
+import StatsSection from './components/StatsSection';
 
 const App = () => {
   return (
     <Router>
       <Navbar />
+      <StatsSection />
       <div className="min-h-screen bg-gray-100 p-4">
         {/* Navbar */}
         <nav className="flex justify-center gap-4 mb-4">
