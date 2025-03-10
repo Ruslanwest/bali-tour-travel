@@ -35,7 +35,7 @@ export default function Contact() {
               id="first-name"
               name="first-name"
               type="text"
-              className="mt-2 block w-full rounded-md border-gray-300 p-2 text-gray-900"
+              className="mt-2 block w-full rounded-md border border-gray-300 p-2 text-gray-900"
             />
           </div>
           <div>
@@ -46,7 +46,7 @@ export default function Contact() {
               id="last-name"
               name="last-name"
               type="text"
-              className="mt-2 block w-full rounded-md border-gray-300 p-2 text-gray-900"
+              className="mt-2 block w-full rounded-md border border-gray-300 p-2 text-gray-900"
             />
           </div>
           <div className="sm:col-span-2">
@@ -57,7 +57,7 @@ export default function Contact() {
               id="email"
               name="email"
               type="email"
-              className="mt-2 block w-full rounded-md border-gray-300 p-2 text-gray-900"
+              className="mt-2 block w-full rounded-md border border-gray-300 p-2 text-gray-900"
             />
           </div>
           <div className="sm:col-span-2">
@@ -68,7 +68,7 @@ export default function Contact() {
               id="message"
               name="message"
               rows={4}
-              className="mt-2 block w-full rounded-md border-gray-300 p-2 text-gray-900"
+              className="mt-2 block w-full rounded-md border border-gray-300 p-2 text-gray-900"
             />
           </div>
         </div>
